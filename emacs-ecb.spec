@@ -1,21 +1,21 @@
 %define tarname ecb
-%define name emacs-%{tarname}
-%define version 2.32
+%define name	emacs-%{tarname}
+%define version 2.40
 %define release %mkrel 1
 
-Summary: Emacs Code Browser
-Name: %{name}
-Version: %{version}
-Release: %{release}
-Source0: %{tarname}-%{version}.tar.gz
-License: GPLv2+
-Group: Editors
-Url:   http://ecb.sourceforge.net/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildArch: noarch
-Requires: emacs >= 21.0
-Requires: emacs-cedet >= 1.0
-BuildRequires: emacs >= 21.0, emacs-cedet >= 1.0
+Summary:	Emacs Code Browser
+Name:		%{name}
+Version:	%{version}
+Release:	%{release}
+Source0:	%{tarname}-%{version}.tar.gz
+License:	GPLv2+
+Group:		Editors
+Url:		http://ecb.sourceforge.net/
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildArch:	noarch
+Requires:	emacs >= 21.0
+Requires:	emacs-cedet >= 1.0-0.pre6
+BuildRequires:	emacs >= 21.0, emacs-cedet >= 1.0-0.pre6
 
 %description
 ECB stands for "Emacs Code Browser". While Emacs already has good
