@@ -14,8 +14,8 @@ Url:		http://ecb.sourceforge.net/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 Requires:	emacs >= 21.0
-Requires:	emacs-cedet >= 1.0-0.pre7
-BuildRequires:	emacs >= 21.0, emacs-cedet >= 1.0-0.pre7
+Requires:	emacs-cedet >= 1.0
+BuildRequires:	emacs >= 21.0, emacs-cedet >= 1.0
 BuildRequires:	texinfo
 
 %description
