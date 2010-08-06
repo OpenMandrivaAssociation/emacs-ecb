@@ -16,6 +16,7 @@ BuildArch:	noarch
 Requires:	emacs >= 21.0
 Requires:	emacs-cedet >= 1.0-0.pre7
 BuildRequires:	emacs >= 21.0, emacs-cedet >= 1.0-0.pre7
+BuildRequires:	texinfo
 
 %description
 ECB stands for "Emacs Code Browser". While Emacs already has good
