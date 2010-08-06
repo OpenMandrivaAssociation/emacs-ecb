@@ -50,7 +50,7 @@ number of ready-made window layouts to choose from.
 %setup -q -n %{tarname}-%{version}
 
 %build
-%make all CEDET=/usr/share/emacs/site-lisp/cedet TEXI2DVI=/usr/bin/texi2dvi DVIPDFM=/usr/bin/dvipdfm EMACSINFOPATH=/usr/share/info/
+%make all CEDET=/usr/share/emacs/site-lisp/cedet/ TEXI2DVI=/usr/bin/texi2dvi DVIPDFM=/usr/bin/dvipdfm EMACSINFOPATH=/usr/share/info/
 
 %install
 %__rm -rf %{buildroot}
