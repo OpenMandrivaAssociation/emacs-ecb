@@ -1,7 +1,7 @@
 %define tarname ecb
 %define name	emacs-%{tarname}
 %define version 2.40
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary:	Emacs Code Browser
 Name:		%{name}
