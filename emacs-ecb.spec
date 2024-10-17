@@ -10,7 +10,7 @@ Release:	%{release}
 Source0:	%{tarname}-%{version}.tar.gz
 License:	GPLv2+
 Group:		Editors
-Url:		http://ecb.sourceforge.net/
+Url:		https://ecb.sourceforge.net/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 Requires:	emacs >= 21.0
