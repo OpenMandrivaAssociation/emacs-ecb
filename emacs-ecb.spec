@@ -15,6 +15,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 Requires:	emacs >= 21.0
 Requires:	emacs-cedet >= 1.0
+BuildRequires:	make
 BuildRequires:	emacs >= 21.0, emacs-cedet >= 1.0
 BuildRequires:	texinfo
 
